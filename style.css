@@ -1,0 +1,28 @@
+
+
+.error {
+    color: red;
+    width: 50%;
+  }
+  .success {
+    color: green;
+  }
+  input[type="email"],
+  input[type="password"] {
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  button[type="submit"] {
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  button[type="submit"]:hover {
+    background-color: #45a049;}
